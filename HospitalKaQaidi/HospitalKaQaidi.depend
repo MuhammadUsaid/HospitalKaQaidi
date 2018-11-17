@@ -12,3 +12,23 @@
 	"Game.h"
 	<iostream>
 
+1542471919 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	"Game.h"
+
+1542458614 e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\include\game.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1542461799 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\src\game.cpp
+	"Game.h"
+	<iostream>
+
+1542471802 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\src\texturemanager.cpp
+	"TextureManager.h"
+	<SDL2/SDL_image.h>
+
+1542471990 e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\include\texturemanager.h
+	<SDL2/SDL.h>
+

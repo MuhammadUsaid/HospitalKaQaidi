@@ -1,5 +1,6 @@
 #include "Game.h"
 #include <iostream>
+#include "TextureManager.h"
 
 using namespace std;
 
@@ -7,9 +8,8 @@ Game::Game(const char* title, int width, int height)
 {
     this->width = width;
     this->height = height;
-    window = nullptr;
-    renderer = nullptr;
-    playerTexture = nullptr;
+    Init(title, width, height);
+    playerTexture = TextureManager::LoadTexture("Images/boy.png", renderer);
 }
 
 /*** Get Running State ***/
@@ -45,10 +45,6 @@ void Game::Init(const char* title, int width, int height)
         return;
     }
     running = true;
-    //Temporary Harkaten
-    SDL_Surface* tempSurface = IMG_Load("Images/boy.png");
-    playerTexture = SDL_CreateTextureFromSurface(renderer, tempSurface);
-    SDL_FreeSurface(tempSurface);
 }
 
 /**** Method To Handle Events ****/

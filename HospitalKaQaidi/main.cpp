@@ -13,7 +13,6 @@ int main(int argc, char* argv[])
     int frameTime;
 
     Game game("Usaid's Game", 800, 600);
-    game.Init("Hospital Ka Qaidi", 800, 600);
     while(game.isRunning())
     {
         frameStart = SDL_GetTicks();  //Calculate the milliseconds since the SDL starts
