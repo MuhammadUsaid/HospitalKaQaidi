@@ -5,14 +5,18 @@
 class Game
 {
 private:
-    int width, height;
     SDL_Window* window;
-    SDL_Renderer* renderer;
     SDL_Texture* playerTexture;
+    SDL_Texture* cupboard;
+    SDL_Texture* chair;
+    SDL_Texture* bed;
     bool running;
+    void GenerateObjects();
 public:
     Game(const char* title, int width, int height);
-    //~Game();
+    ~Game();
+    static int width, height;
+    static SDL_Renderer* renderer;
     void Init(const char* title, int width, int height);
     void HandleEvents();
     void Update();

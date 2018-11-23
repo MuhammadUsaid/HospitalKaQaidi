@@ -1,7 +1,16 @@
-#pragma once
-#include <SDL2/SDL.h>
+#ifndef TEXTUREMANAGER_H
+#define TEXTUREMANAGER_H
+
+
 class TextureManager
 {
-public:
-    static SDL_Texture* LoadTexture(const char* path, SDL_Renderer*);
+    public:
+        TextureManager();
+        ~TextureManager();
+
+    protected:
+
+    private:
 };
+
+#endif // TEXTUREMANAGER_H

@@ -12,23 +12,40 @@
 	"Game.h"
 	<iostream>
 
-1542471919 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\main.cpp
+1542802581 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\main.cpp
 	<iostream>
 	<SDL2/SDL.h>
 	"Game.h"
+	<time.h>
 
-1542458614 e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\include\game.h
+1542796893 e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\include\game.h
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 
-1542461799 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\src\game.cpp
+1542799097 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\src\game.cpp
 	"Game.h"
 	<iostream>
-
-1542471802 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\src\texturemanager.cpp
 	"TextureManager.h"
-	<SDL2/SDL_image.h>
+	<stdlib.h>
+	"GameObject.h"
+	"Player.h"
 
-1542471990 e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\include\texturemanager.h
-	<SDL2/SDL.h>
+1542878904 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\src\texturemanager.cpp
+	"TextureManager.h"
+
+1542878904 e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\include\texturemanager.h
+
+1542796974 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\src\gameobject.cpp
+	"GameObject.h"
+	"TextureManager.h"
+
+1542796322 e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\include\gameobject.h
+	"Game.h"
+
+1542861140 e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\include\player.h
+	"GameObject.h"
+
+1542861176 source:e:\semester3\object oriented programming\project repo\hospital ka qaidi\hospitalkaqaidi\src\player.cpp
+	"Player.h"
+	"TextureManager.h"
 
